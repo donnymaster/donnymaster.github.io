@@ -32,8 +32,7 @@ header{
 }
 
 nav{
-    width: 30%;
-    padding-right: 2.5%;
+    margin-right: 2.5%;
 }
 
 nav ul {
@@ -45,6 +44,9 @@ nav ul {
 
 nav ul li{
     font-weight: bold;
+}
+nav ul li:first-child{
+    margin-right: 8px;
 }
 
 a.doc {
